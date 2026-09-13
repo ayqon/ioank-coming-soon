@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IOANK LTD is currently under maintenance. We’ll be back soon.">
+  <title>IOANK LTD | Under Maintenance</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      background: #000;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+
+    main {
+      width: 100%;
+      max-width: 900px;
+      margin: auto 0;
+      padding: 80px 0;
+    }
+
+    .label {
+      margin: 0 0 20px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      max-width: 850px;
+      margin: 0;
+      font-size: clamp(52px, 10vw, 128px);
+      font-weight: 700;
+      line-height: 0.9;
+      letter-spacing: -0.06em;
+    }
+
+    .message {
+      max-width: 520px;
+      margin: 36px 0 0;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #fff;
+      text-underline-offset: 4px;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      padding-top: 24px;
+      border-top: 1px solid #fff;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    address {
+      max-width: 390px;
+      font-style: normal;
+      text-align: right;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 22px; }
+      main { padding: 70px 0; }
+      footer { flex-direction: column; }
+      address { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <header>IOANK LTD</header>
+
+  <main>
+    <p class="label">We are under maintenance</p>
+    <h1>We’ll be<br>back soon.</h1>
+    <p class="message">
+      Our website is currently being updated. For enquiries, contact us at
+      <a href="mailto:contact@ioank.com">contact@ioank.com</a>.
+    </p>
+  </main>
+
+  <footer>
+    <span>IOANK LTD</span>
+    <address>14/2E Docklands Business Centre, 10–16 Tiller Road, London, E14 8PX</address>
+  </footer>
+</body>
+</html>
